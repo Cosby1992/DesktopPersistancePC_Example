@@ -6,5 +6,7 @@ Features:    <b>   Reads and Writes from a file on the desktop (mac not tested) 
 
 Uses BufferedWriter and BufferedReader to read and write a string to a file.
 
-Screenshot from Gui
-<!-- ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") -->
+**Screenshots from Gui** <br>
+![alt text](https://github.com/Cosby1992/DesktopPersistancePC_Example/blob/master/src/assets/Udklip.PNG "GUI Exapmle 1")
+
+![alt text](https://github.com/Cosby1992/DesktopPersistancePC_Example/blob/master/src/assets/Udklip2.PNG "GUI Exapmle 2")
