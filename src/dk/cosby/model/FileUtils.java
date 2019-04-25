@@ -52,7 +52,8 @@ public class FileUtils implements Serializable {
      */
     public String readFromHDD(){
 
-        String returnString = "Something went wrong...";
+        String returnString = "Something went wrong... \n\n" +
+                "Make sure the file exists and is in the \nright path (fx. C:)/../../Desktop";
 
         String file = System.getProperty("user.home") + fileSeparator + "Desktop" + fileSeparator + "TheModernTypeWriterFile.txt";
 
@@ -61,7 +62,6 @@ public class FileUtils implements Serializable {
             BufferedReader reader = new BufferedReader(new FileReader(file));
 
             System.out.println("Reading from file");
-
 
             StringBuilder builder = new StringBuilder();
             returnString = reader.readLine();
